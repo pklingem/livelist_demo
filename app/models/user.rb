@@ -7,7 +7,7 @@ class User < ActiveRecord::Base
   end
 
   def self.state_filter_options(filter_params)
-    states = ['active', 'inactive', 'deleted']
+    states = select('distinct state').map(&:state)
     counts = group(:state).count
     states.map do |state|
       {

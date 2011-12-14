@@ -61,6 +61,7 @@ class window.LiveList extends Utilities
         url: @urlPrefix
         dataType: 'json'
         data: params
+        type: @httpMethod
         beforeSend: @displayFetchingIndication
         success: @renderIndex
       )

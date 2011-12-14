@@ -16,7 +16,11 @@ ActiveRecord::Schema.define(:version => 20111213042553) do
   create_table "users", :force => true do |t|
     t.string   "first_name"
     t.string   "last_name"
+    t.string   "status"
+    t.string   "street"
+    t.string   "city"
     t.string   "state"
+    t.string   "zip_code"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
