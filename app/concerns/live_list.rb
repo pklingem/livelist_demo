@@ -4,7 +4,7 @@ module LiveList
   end
 
   module ClassMethods
-    def initialize_filters(*filter_slugs)
+    def filters(*filter_slugs)
       @@filter_slugs = filter_slugs
       @@filter_slugs.each do |filter_slug|
         metaclass = class << self; self; end
@@ -59,7 +59,7 @@ module LiveList
         end
       end
 
-      def self.filters(filter_params)
+      def self.filters_as_json(filter_params)
         filter_params ||= {}
         @@filter_slugs.map do |filter|
           send("#{filter}_filter", send("#{filter}_filters", filter_params[filter]))
