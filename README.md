@@ -1,4 +1,4 @@
-== Livelist Demo
+# Livelist Demo
 
 * Rails 3.1
 * livelist.js 0.0.1
