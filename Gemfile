@@ -20,7 +20,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'livelist-rails', :path => '/home/patrick/apps/livelist-rails'
+gem 'livelist-rails', '0.0.2'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
