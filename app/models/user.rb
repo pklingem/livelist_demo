@@ -1,3 +1,3 @@
 class User < ActiveRecord::Base
-  filters :state
+  filters :status, :state
 end
