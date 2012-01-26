@@ -21,7 +21,7 @@ end
 
 gem 'jquery-rails'
 #gem 'livelist-rails', :path => '~/apps/livelist-rails'
-gem 'livelist-rails', '0.0.5'
+gem 'livelist-rails', '0.0.6'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
