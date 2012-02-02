@@ -1,0 +1,26 @@
+<script id="users_filters_template" type="text/html">
+  {{#filters}}
+  <fieldset class='filter'>
+    <legend>{{name}}</legend>
+    <div class="control-group">
+      <ul id='{{filter_slug}}_filter_options'>
+        {{#options}}
+          <li>
+            <label class="checkbox">
+              <input {{#selected}}checked='checked'{{/selected}}
+                     class='left filter_option'
+                     id='filter_{{slug}}'
+                     name='filters[]'
+                     type='checkbox'
+                     value='{{value}}' />
+              <div class='left filter_name'>{{name}}</div>
+              <div class='right filter_count'>{{count}}</div>
+              <div class='clear'></div>
+            </label>
+          </li>
+        {{/options}}
+      </ul>
+    </div>
+  </fieldset>
+  {{/filters}}
+</script>

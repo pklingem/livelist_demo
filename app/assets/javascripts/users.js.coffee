@@ -10,45 +10,11 @@ $(document).ready ->
       httpMethod: 'post'
       urlPrefix: '/users/filter'
       renderTo: 'ul#users'
-      listItemTemplate: '''
-        <li id="patient_{{id}}">
-          <address>
-            <strong>{{first_name}} {{last_name}}</strong><span class="label">{{status}}</span>
-            <br />
-            {{street}}
-            <br />
-            {{city}}, {{state}} {{zip_code}}
-          </address>
-        </li>
-      '''
+      listItemTemplate: $('#users_list_item_template').html()
     filters:
       renderTo: 'form#filters'
-      template: '''
-        {{#filters}}
-        <fieldset class='filter'>
-          <legend>{{name}}</legend>
-          <div class="control-group">
-            <ul id='{{filter_slug}}_filter_options'>
-              {{#options}}
-                <li>
-                  <label class="checkbox">
-                    <input {{#selected}}checked='checked'{{/selected}}
-                           class='left filter_option'
-                           id='filter_{{slug}}'
-                           name='filters[]'
-                           type='checkbox'
-                           value='{{value}}' />
-                    <div class='left filter_name'>{{name}}</div>
-                    <div class='right filter_count'>{{count}}</div>
-                    <div class='clear'></div>
-                  </label>
-                </li>
-              {{/options}}
-            </ul>
-          </div>
-        </fieldset>
-        {{/filters}}
-      '''
+      template: $('#users_filters_template').html()
     pagination:
       renderTo: 'div#pagination'
+      template: $('#pagination_template').html()
   )

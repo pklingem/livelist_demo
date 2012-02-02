@@ -1,3 +1,9 @@
+<% content_for :mustache_templates do %>
+  <%= render 'list_item_template.mustache' %>
+  <%= render 'filters_template.mustache' %>
+  <%= render 'pagination_template.mustache' %>
+<% end %>
+
 <div class="row">
   <div class="span8">
     <section id="users-listing">
