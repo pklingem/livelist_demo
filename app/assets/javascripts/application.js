@@ -7,4 +7,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require livelist-rails
+//= twitter/bootstrap
 //= require_tree .

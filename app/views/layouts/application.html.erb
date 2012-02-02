@@ -8,7 +8,24 @@
 </head>
 <body>
 
-<%= yield %>
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="#">livelist</a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li>
+              <a href="#">livelist</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <%= yield %>
+  </div>
 
 </body>
 </html>
