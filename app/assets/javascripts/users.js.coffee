@@ -16,5 +16,4 @@ $(document).ready ->
       template: $('#users_filters_template').html()
     pagination:
       renderTo: 'div#pagination'
-      template: $('#pagination_template').html()
   )
