@@ -6,9 +6,9 @@ $(document).ready ->
     global:
       resourceName: 'users'
       resourceNameSingular: 'user'
-    list:
-      httpMethod: 'post'
       urlPrefix: '/users/filter'
+      httpMethod: 'post'
+    list:
       renderTo: 'ul#users'
       listItemTemplate: $('#users_list_item_template').html()
     filters:
