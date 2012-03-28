@@ -1,7 +1,6 @@
 namespace :db do
   task :populate => :environment do
-    states = ['active','inactive','deleted']
-    User.delete_all
+    states = ['happy', 'sad', 'angry', 'content']
     100.times do
       user = User.create(
         :first_name => Faker::Name.first_name,
