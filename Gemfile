@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.2'
-gem 'rabl', '0.6.0'
+gem 'rails', '3.2.9'
+gem 'rabl', '0.7.8'
 gem 'will_paginate'
 gem 'faker'
 
