@@ -13,6 +13,7 @@ gem 'pg'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
+  gem 'less-rails'
   gem 'sass-rails'
   gem 'coffee-rails'
   gem 'uglifier'
@@ -35,7 +36,7 @@ gem 'twitter-bootstrap-rails'
 
 group :development do
   gem 'mysql2'
-  gem 'ruby-debug19', :require => 'ruby-debug'
+  gem 'debugger', :require => 'ruby-debug'
 end
 
 group :test do
