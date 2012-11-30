@@ -19,8 +19,9 @@ group :assets do
 end
 
 gem 'jquery-rails'
-#gem 'livelist-rails', :path => '~/apps/livelist-rails'
-gem 'livelist-rails', '0.0.12'
+#gem 'livelist-rails', :path => '../livelist-rails'
+#gem 'livelist-rails', '0.0.14'
+gem 'livelist-rails', :github => 'pklingem/livelist-rails', :tag => 'v0.0.14'
 gem 'twitter-bootstrap-rails'
 
 # To use ActiveModel has_secure_password
