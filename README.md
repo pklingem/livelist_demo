@@ -1,8 +1,8 @@
 # Livelist Demo
 
-* Rails 3.1
-* livelist.js 0.0.1
-* livelist-rails 0.0.1
+* Rails 3.2.9
+* livelist.js 0.0.9
+* livelist-rails 0.0.14
 
 # Installation
 

@@ -1,4 +1,5 @@
 namespace :db do
+  desc 'populate some fake data'
   task :populate => :environment do
     states = ['happy', 'sad', 'angry', 'content']
     100.times do
