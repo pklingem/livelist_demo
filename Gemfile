@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source :rubygems
 
 gem 'rails', '3.2.9'
 gem 'rabl', '0.7.8'
@@ -21,8 +21,7 @@ end
 
 gem 'jquery-rails'
 #gem 'livelist-rails', :path => '../livelist-rails'
-#gem 'livelist-rails', '0.0.14'
-gem 'livelist-rails', :github => 'pklingem/livelist-rails', :tag => 'v0.0.14'
+gem 'livelist-rails', '0.0.14'
 gem 'twitter-bootstrap-rails'
 
 # To use ActiveModel has_secure_password
