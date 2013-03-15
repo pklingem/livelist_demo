@@ -22,7 +22,7 @@ end
 
 gem 'jquery-rails'
 #gem 'livelist-rails', :path => '../livelist-rails'
-gem 'livelist-rails', '0.0.14'
+gem 'livelist-rails', '0.0.15'
 gem 'twitter-bootstrap-rails'
 
 # To use ActiveModel has_secure_password

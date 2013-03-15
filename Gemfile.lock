@@ -91,7 +91,7 @@ GEM
     libwebsocket (0.1.7.1)
       addressable
       websocket
-    livelist-rails (0.0.14)
+    livelist-rails (0.0.15)
       activerecord
       activesupport
     mail (2.4.4)
@@ -190,7 +190,7 @@ DEPENDENCIES
   faker
   jquery-rails
   less-rails
-  livelist-rails (= 0.0.14)
+  livelist-rails (= 0.0.15)
   mysql2
   pg
   rabl (= 0.7.8)
